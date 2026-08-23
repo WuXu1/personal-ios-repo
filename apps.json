@@ -1,0 +1,21 @@
+{
+  "name": "Max's iOS Repository",
+  "identifier": "com.max.altstore.repo",
+  "sourceURL": "https://raw.githubusercontent.com/WuXu1/Max-iOS-Repository/main/apps.json",
+  "apps": [
+    {
+      "name": "Restring Helper",
+      "bundleIdentifier": "com.stringsports.restringhelper",
+      "developerName": "Max",
+      "version": "1.0.0",
+      "versionDate": "2026-08-23T00:00:00-00:00",
+      "versionDescription": "Initial release of Restring Helper.",
+      "downloadURL": "https://github.com/WuXu1/restring-helper-ios/releases/download/v1.0.0/RestringHelper.ipa",
+      "localizedDescription": "An application to help with stringing sports racquets and printing labels with Zebra printers.",
+      "iconURL": "https://raw.githubusercontent.com/WuXu1/Max-iOS-Repository/main/icons/restringhelper.png",
+      "tintColor": "#007AFF",
+      "size": 10485760
+    }
+  ],
+  "news": []
+}
