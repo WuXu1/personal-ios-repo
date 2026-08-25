@@ -2,6 +2,7 @@
   "name": "Max's iOS Repository",
   "identifier": "com.max.altstore.repo",
   "sourceURL": "https://gist.githubusercontent.com/WuXu1/7bb9258857f12767e3b1b092c6dfb959/raw/apps.json",
+  "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/repo_icon.jpg",
   "apps": [
     {
       "name": "Restring Helper",
