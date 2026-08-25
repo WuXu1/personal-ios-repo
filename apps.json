@@ -105,7 +105,7 @@
       "developerName": "Max",
       "subtitle": "AI-Powered Equipment Recommender for String Sports",
       "version": "1.0",
-      "versionDate": "2026-08-25T16:03:32-00:00",
+      "versionDate": "2026-08-25T00:00:00-00:00",
       "versionDescription": "Initial Release:\n• Guided 3-step customer profiling wizard for rackets, strings, and footwear.\n• Real-time Gemini AI recommendation engine integrated with Shopify inventory.\n• Staff talking points and match explanations for each recommended product.\n• Live backend health and quota tracking in Settings.",
       "downloadURL": "https://drive.google.com/uc?export=download&id=1YDu8jc6zJy4xwg4-_8zvZeDXNrUQDrnS",
       "localizedDescription": "Sales Assistant is an AI-powered sales and product recommendation tool designed for String Sports Glasgow. It guides staff through a customer profiling wizard to deliver personalized equipment recommendations across rackets, strings, and shoes with live inventory matching.\n\nKey Features:\n• 3-Step Customer Profiling: Capture sport, category, skill level, play style, physical ailments, and budget.\n• Gemini AI Engine: Context-aware AI recommendations tailored to player anatomy, string specs, and racket dynamics.\n• Shopify Inventory Matching: Real-time integration with live shop inventory to recommend available products.\n• Talking Points & Match Explanations: Staff-ready talking points explaining why each product matches the customer.\n• Multi-Sport Support: Tailored logic for Tennis, Padel, Squash, Badminton, and Pickleball.\n• System & Quota Monitoring: Live backend health status and Gemini API quota usage tracking.",
@@ -115,7 +115,7 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-08-25T16:03:32-00:00",
+          "date": "2026-08-25T00:00:00-00:00",
           "localizedDescription": "Initial Release:\n• Guided 3-step customer profiling wizard for rackets, strings, and footwear.\n• Real-time Gemini AI recommendation engine integrated with Shopify inventory.\n• Staff talking points and match explanations for each recommended product.\n• Live backend health and quota tracking in Settings.",
           "downloadURL": "https://drive.google.com/uc?export=download&id=1YDu8jc6zJy4xwg4-_8zvZeDXNrUQDrnS",
           "size": 10485760,
@@ -129,6 +129,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Sales Assistant Released!",
+      "identifier": "sales-assistant-released",
+      "caption": "AI-powered equipment recommendation tool for String Sports staff.",
+      "date": "2026-08-25T00:00:00-00:00",
+      "tintColor": "#007AFF",
+      "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/salesassistant.png",
+      "notify": true,
+      "appID": "com.stringsports.salesassistant"
+    },
     {
       "title": "Restring Helper Released!",
       "identifier": "restring-helper-released",
