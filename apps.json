@@ -1,13 +1,18 @@
 {
   "name": "Max's iOS Repository",
-  "identifier": "com.max.altstore.repo",
-  "sourceURL": "https://gist.githubusercontent.com/WuXu1/7bb9258857f12767e3b1b092c6dfb959/raw/apps.json",
+  "subtitle": "Private iOS Applications by Max",
+  "description": "A private repository hosting personal iOS applications and utilities built by Max, including Restring Helper.",
   "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/repo_icon.jpg",
+  "headerURL": "",
+  "website": "https://github.com/WuXu1/personal-ios-repo",
+  "tintColor": "#FF3B30",
+  "sourceURL": "https://gist.githubusercontent.com/WuXu1/7bb9258857f12767e3b1b092c6dfb959/raw/apps.json",
   "apps": [
     {
       "name": "Restring Helper",
       "bundleIdentifier": "com.stringsports.restringhelper",
       "developerName": "Max",
+      "subtitle": "Manage stringing orders efficiently.",
       "version": "3.0",
       "versionDate": "2026-08-24T23:14:46-00:00",
       "versionDescription": "# Restring Helper — Full Changelog\n\n---\n\n## Web Orders Integration\n- **Dedicated Web Orders View** — A brand new, fully integrated page to track unfulfilled Shopify restring orders.\n- **Smart Dispatch Tabs** — Orders are automatically categorized into \"Send Today\", \"Send Tomorrow\", \"Pickup\", and \"All\" using a strict 2:00 PM cutoff rule (including weekend logic).\n- **Auto-Refresh** — The Web Orders page now automatically pulls fresh data from the server every 10 minutes in the background, complete with a live-ticking \"Last checked: X mins ago\" indicator.\n- **Dashboard UI Parity** — The Web Orders page layout, segmented picker, and order cards have been styled to be 100% identical to the main Dashboard.\n- **Order Card Enhancements** — Phone numbers are now formatted perfectly (e.g., +44 79226 51621) and are directly tappable to initiate a call/message. Product variant details (like grip size) are now explicitly displayed alongside the racket model. Order-level customer notes and stencil requirements (\"Stencil: Yes/No\") are cleanly extracted from the checkout and highlighted. Order numbers are displayed cleanly (e.g., #40381 instead of #40,381).\n\n---\n\n## Stringer Credit System\n- **Team Roster** — You can now configure your stringing team roster directly in Settings.\n- **Attribution Popup** — Completing an order on either the Dashboard or the Web Orders page now prompts a \"Who strung this racket?\" modal to give credit.\n- **Analytics Leaderboard** — A new \"Stringer Leaderboard\" sits at the top of the Analytics page, tracking exactly how many rackets each person has strung.\n- **Secure Reset** — Added a new \"Reset Web Orders History\" button in Settings to clear the local web orders log and reset the leaderboard credits when needed.\n\n---\n\n## Quality of Life & UI Polish\n- **Undo Toast** — Added a 5-second \"Undo\" toast that appears at the bottom of the screen after marking any order as complete, allowing you to instantly revert accidental taps.\n- **iPad Multitasking** — Enabled native iPadOS Multitasking! You can now use the app in Split View or Slide Over alongside Safari, Shopify, or Messages.\n- **App Icon Badges** — The app icon on your home screen now dynamically displays a red badge with the number of orders due today and tomorrow.\n- **Faster Workflow** — Removed the redundant \"Mark Order as Done?\" confirmation alert to speed up rapid checkoffs.\n- **Empty States** — The \"No Orders\" placeholder text dynamically updates to reflect exactly which tab you are looking at.\n\n---\n\n## Editing & Workflow Toggles\n- **Free Restring Toggle** — Added a new toggle when creating orders that automatically locks the string selection to \"Wilson Sensation - FREE\".\n- **New Racket Toggle** — Added a \"New Racket\" toggle that automatically hides pricing from the dashboard and printed labels when selected.\n- **Unsaved Changes Protection** — The app now intercepts the \"Cancel\" button when editing an order and warns you if you have unsaved changes.\n- **Order Context Menu** — Restored the \"Select\" button to the order long-press context menu on the Dashboard.\n\n---\n\n## Printer & ZPL Label Tweaks\n- **Note Wrapping** — ZPL labels now unconditionally print notes. If a complex hybrid string job physically pushes the note off the label bounds, a * (star) indicator will be printed so you know to check the iPad.\n- **Persistent Connection** — The Zebra printer now keeps its connection active immediately after a successful print rather than instantly disconnecting, dramatically speeding up back-to-back printing.\n\n---\n\n## Backend & Shopify Sync\n- **Crash Prevention** — Overhauled backend API parsing to safely handle null properties, guest checkouts, and missing customer data from Shopify without crashing (HTTP 500 fixes).\n- **Auto-Cancellation** — If an order is untoggled from \"Paid\" or deleted locally in the app, the backend will now automatically cancel the corresponding draft order on Shopify.\n- **Intelligent Customer Merge** — The backend now automatically deduplicates customers by name and recursively merges missing contact information when syncing to Shopify.\n- **Accurate Filtering** — Improved backend web order extraction to properly ignore rackets marked as \"No Restring Required\" by the customer.",
@@ -15,7 +20,10 @@
       "localizedDescription": "An application to help with stringing sports racquets and printing labels with Zebra printers.",
       "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/restringhelper_v2.jpg",
       "tintColor": "#007AFF",
-      "size": 10485760
+      "size": 10485760,
+      "appPermissions": {
+        "entitlements": []
+      }
     }
   ],
   "news": []
