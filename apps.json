@@ -19,7 +19,7 @@
       "downloadURL": "https://drive.google.com/uc?export=download&id=1tKrnhR5gfg3DNMH2hpQs7Q2v6joYT_Qg",
       "localizedDescription": "Restring Helper is the dedicated stringing management application designed for String Sports Glasgow. It streamlines in-store and online racket restringing workflows, customer communications, and label printing.\n\nKey Features:\n• Order Management: Track drop-offs, tensions, custom string selections, payment status, and pickup schedules.\n• Web Orders Integration: Directly track, categorize, and fulfill incoming Shopify restring orders with smart dispatch tabs.\n• Zebra Label Printing: Automatically generate and print detailed ZPL job labels directly to Zebra printers.\n• Customer SMS Notifications: Automated SMS alerts when rackets are ready for collection, with a 5-second undo safeguard.\n• Stringer Attribution & Analytics: Track team workload, attribution, and racket counts with a live stringer leaderboard.\n• Multi-Racket Orders: Quickly process multi-racket drop-offs with smart cloning and visual grouping hints.\n• iPadOS Multitasking: Optimized for iPad with full Split View and Slide Over support.",
       "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/restringhelper_v2.jpg",
-      "tintColor": "#007AFF",
+      "tintColor": "#E5A817",
       "size": 10485760,
       "versions": [
         {
@@ -86,7 +86,7 @@
       "identifier": "restring-helper-released",
       "caption": "The dedicated racket stringing management app for String Sports Glasgow is officially available.",
       "date": "2026-08-25T13:30:50-00:00",
-      "tintColor": "#007AFF",
+      "tintColor": "#E5A817",
       "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_1.png",
       "notify": true,
       "appID": "com.stringsports.restringhelper"
