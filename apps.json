@@ -13,15 +13,23 @@
       "bundleIdentifier": "com.stringsports.restringhelper",
       "developerName": "Max",
       "subtitle": "Dedicated Stringing Manager for String Sports Glasgow",
-      "version": "3.2",
+      "version": "3.3",
       "versionDate": "2026-08-25T00:00:00-00:00",
-      "versionDescription": "Terminology & Navigation Overhaul:\n• Restring Queue: Renamed Dashboard to Restring Queue across the entire app for racket-specific clarity.\n• New Restring: Renamed New Order to New Restring across navigation, headers, and quick actions.\n• Reordered Sidebar: Streamlined navigation order (New Restring → Restring Queue → Web Orders → Customers → Analytics).\n• Keyboard Polish: Prevented iPadOS Discoverability HUD shortcut overlay from appearing unexpectedly.\n\nWeb Orders Improvements:\n• Detailed Order Sheet: Full details popup with contact info, racket specs, order timestamp, and dynamic Fulfill By dates.\n• Direct Shopify Link: Open in Shopify button directly accesses the order in the Shopify iOS app or web admin.\n• Late Filter Tab: Dedicated tab to immediately surface web orders that have passed scheduled dispatch dates.\n• Refined Card Layout: Stripped redundant price/bracket strings and streamlined order number alignment.\n\nLocal Web Order Hiding & Management:\n• Hide vs. Delete: Clarified local web order removal as Hide without affecting remote Shopify orders.\n• Swipe Actions & Batch Hiding: Full support for swipe checkoffs, hide actions, and multi-select batch hiding.\n• Unhide in Settings: Restores all hidden web orders instantly with automatic background refresh.\n\nAnimation & Modal Polish:\n• Smooth Custom Modals: Native in-app modal overlays for Hide Order and Delete Order confirmations.\n• Zero List Jitter: Eliminated layout shifts during swipe actions and modal presentations.",
-      "downloadURL": "https://drive.google.com/uc?export=download&id=1GpmKE17sZV_C27WkS1GMONPcVE5N_Y23",
+      "versionDescription": "New Restring Form Improvements:\n• Clear Form Reset Button: Added a dedicated Clear button in the top-right toolbar on the New Restring screen to quickly reset all fields with haptic feedback.\n• Auto-Capitalized Name Fields: Added automatic word capitalization across name input fields in New Restring, Edit Customer, and Add Stringer in Settings.",
+      "downloadURL": "https://drive.google.com/uc?export=download&id=1g5RsrXIFghqbBdm-3pNsJ0_G-bd8fTVo",
       "localizedDescription": "Restring Helper is the dedicated stringing management application designed for String Sports Glasgow. It streamlines in-store and online racket restringing workflows, customer communications, and label printing.\n\nKey Features:\n• Order Management: Track drop-offs, tensions, custom string selections, payment status, and pickup schedules.\n• Web Orders Integration: Directly track, categorize, and fulfill incoming Shopify restring orders with smart dispatch tabs.\n• Zebra Label Printing: Automatically generate and print detailed ZPL job labels directly to Zebra printers.\n• Customer SMS Notifications: Automated SMS alerts when rackets are ready for collection, with a 5-second undo safeguard.\n• Stringer Attribution & Analytics: Track team workload, attribution, and racket counts with a live stringer leaderboard.\n• Multi-Racket Orders: Quickly process multi-racket drop-offs with smart cloning and visual grouping hints.\n• iPadOS Multitasking: Optimized for iPad with full Split View and Slide Over support.",
       "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/restringhelper_v2.jpg",
       "tintColor": "#E5A817",
       "size": 10485760,
       "versions": [
+        {
+          "version": "3.3",
+          "date": "2026-08-25T00:00:00-00:00",
+          "localizedDescription": "New Restring Form Improvements:\n• Clear Form Reset Button: Added a dedicated Clear button in the top-right toolbar on the New Restring screen to quickly reset all fields with haptic feedback.\n• Auto-Capitalized Name Fields: Added automatic word capitalization across name input fields in New Restring, Edit Customer, and Add Stringer in Settings.",
+          "downloadURL": "https://drive.google.com/uc?export=download&id=1g5RsrXIFghqbBdm-3pNsJ0_G-bd8fTVo",
+          "size": 10485760,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "3.2",
           "date": "2026-08-25T00:00:00-00:00",
