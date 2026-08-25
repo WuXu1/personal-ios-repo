@@ -1,9 +1,9 @@
 {
   "name": "Max's iOS Repository",
+  "identifier": "com.max.altstore.repo",
   "subtitle": "Private iOS Applications by Max",
   "description": "A private repository hosting personal iOS applications and utilities built by Max, including Restring Helper.",
   "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/repo_icon.jpg",
-  "headerURL": "",
   "website": "https://github.com/WuXu1/personal-ios-repo",
   "tintColor": "#FF3B30",
   "sourceURL": "https://gist.githubusercontent.com/WuXu1/7bb9258857f12767e3b1b092c6dfb959/raw/apps.json",
@@ -20,10 +20,7 @@
       "localizedDescription": "An application to help with stringing sports racquets and printing labels with Zebra printers.",
       "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/restringhelper_v2.jpg",
       "tintColor": "#007AFF",
-      "size": 10485760,
-      "appPermissions": {
-        "entitlements": []
-      }
+      "size": 10485760
     }
   ],
   "news": []
