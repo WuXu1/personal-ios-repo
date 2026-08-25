@@ -135,7 +135,6 @@
       "caption": "AI-powered equipment recommendation tool for String Sports staff.",
       "date": "2026-08-25T00:00:00-00:00",
       "tintColor": "#007AFF",
-      "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/salesassistant.png",
       "notify": true,
       "appID": "com.stringsports.salesassistant"
     },
