@@ -55,33 +55,35 @@
           "minOSVersion": "17.0"
         }
       ],
-      "screenshots": [
-        {
-          "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_1.png",
-          "width": 1024,
-          "height": 768
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_2.png",
-          "width": 1024,
-          "height": 768
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_3.png",
-          "width": 1024,
-          "height": 768
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_4.png",
-          "width": 1024,
-          "height": 768
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_5.png",
-          "width": 1024,
-          "height": 768
-        }
-      ],
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_1.png",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_2.png",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_3.png",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_4.png",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/screenshot_5.png",
+            "width": 1024,
+            "height": 768
+          }
+        ]
+      },
       "appPermissions": {
         "entitlements": [],
         "privacy": {
