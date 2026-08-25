@@ -96,7 +96,7 @@
       "identifier": "restring-helper-released",
       "caption": "The dedicated racket stringing management app for String Sports Glasgow is officially available.",
       "date": "2026-08-25T13:30:50-00:00",
-      "tintColor": "#E5A817",
+      "tintColor": "#0F203C",
       "notify": true,
       "appID": "com.stringsports.restringhelper"
     }
