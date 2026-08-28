@@ -13,15 +13,23 @@
       "bundleIdentifier": "com.stringsports.restringhelper",
       "developerName": "Max",
       "subtitle": "Dedicated Stringing Manager for String Sports Glasgow",
-      "version": "3.3",
-      "versionDate": "2026-08-25T00:00:00-00:00",
-      "versionDescription": "New Restring Form Improvements:\n• Clear Form Reset Button: Added a dedicated Clear button in the top-right toolbar on the New Restring screen to quickly reset all fields with haptic feedback.\n• Auto-Capitalized Name Fields: Added automatic word capitalization across name input fields in New Restring, Edit Customer, and Add Stringer in Settings.",
-      "downloadURL": "https://drive.google.com/uc?export=download&id=1g5RsrXIFghqbBdm-3pNsJ0_G-bd8fTVo",
+      "version": "3.4",
+      "versionDate": "2026-08-28T00:00:00-00:00",
+      "versionDescription": "New Features & Improvements:\n• Auto-Fulfill Paid Shopify Orders: Local restrings marked as paid (Cash or Card) are now automatically marked as Fulfilled when created on Shopify.\n• Combined Multi-Racket Orders: Multi-racket drop-offs now create a single combined order with multiple line items on Shopify rather than separate orders.\n• Multi-Racket Note Formatting: Customer notes cleanly append bracketed racket numbers (e.g. Note: customer note [Racket 1 of 2]) without outer brackets.\n• Customer Provided Strings Fallback: Leaving the custom string name blank now automatically defaults the description to \"Own Strings\".\n\nAnalytics & Bug Fixes:\n• Stocked Strings Filter: Popular Strings on Analytics now exclusively counts stocked catalog strings, ignoring custom/customer-provided entries.\n• UK Local Calendar Timezone Fix: Resolved UTC time shifts during BST so Today, Last 7 Days, and Last 30 Days strictly calculate on UK local days.",
+      "downloadURL": "https://drive.google.com/uc?export=download&id=1aGkCzDGPdQJj4KiCVzD5QFBLUJwNAtsq",
       "localizedDescription": "Restring Helper is the dedicated stringing management application designed for String Sports Glasgow. It streamlines in-store and online racket restringing workflows, customer communications, and label printing.\n\nKey Features:\n• Order Management: Track drop-offs, tensions, custom string selections, payment status, and pickup schedules.\n• Web Orders Integration: Directly track, categorize, and fulfill incoming Shopify restring orders with smart dispatch tabs.\n• Zebra Label Printing: Automatically generate and print detailed ZPL job labels directly to Zebra printers.\n• Customer SMS Notifications: Automated SMS alerts when rackets are ready for collection, with a 5-second undo safeguard.\n• Stringer Attribution & Analytics: Track team workload, attribution, and racket counts with a live stringer leaderboard.\n• Multi-Racket Orders: Quickly process multi-racket drop-offs with smart cloning and visual grouping hints.\n• iPadOS Multitasking: Optimized for iPad with full Split View and Slide Over support.",
       "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/restringhelper_v2.jpg",
       "tintColor": "#E5A817",
       "size": 10485760,
       "versions": [
+        {
+          "version": "3.4",
+          "date": "2026-08-28T00:00:00-00:00",
+          "localizedDescription": "New Features & Improvements:\n• Auto-Fulfill Paid Shopify Orders: Local restrings marked as paid (Cash or Card) are now automatically marked as Fulfilled when created on Shopify.\n• Combined Multi-Racket Orders: Multi-racket drop-offs now create a single combined order with multiple line items on Shopify rather than separate orders.\n• Multi-Racket Note Formatting: Customer notes cleanly append bracketed racket numbers (e.g. Note: customer note [Racket 1 of 2]) without outer brackets.\n• Customer Provided Strings Fallback: Leaving the custom string name blank now automatically defaults the description to \"Own Strings\".\n\nAnalytics & Bug Fixes:\n• Stocked Strings Filter: Popular Strings on Analytics now exclusively counts stocked catalog strings, ignoring custom/customer-provided entries.\n• UK Local Calendar Timezone Fix: Resolved UTC time shifts during BST so Today, Last 7 Days, and Last 30 Days strictly calculate on UK local days.",
+          "downloadURL": "https://drive.google.com/uc?export=download&id=1aGkCzDGPdQJj4KiCVzD5QFBLUJwNAtsq",
+          "size": 10485760,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "3.3",
           "date": "2026-08-25T00:00:00-00:00",
