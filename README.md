@@ -16,4 +16,11 @@ Welcome to my personal AltStore repository! This repository hosts my iOS applica
 ## Available Apps
 
 ### Restring Helper
-An application to help with stringing sports racquets and printing labels with Zebra printers.
+Dedicated racket stringing manager and Zebra label printing assistant for String Sports Glasgow.
+
+### Sales Assistant
+AI-powered equipment profiling and racket/string/shoe recommendation engine integrated with Shopify inventory.
+
+### Sauna Scout
+Interactive map and passport tracker for discovering, exploring, and bagging over 100 wild and coastal saunas across Scotland.
+
