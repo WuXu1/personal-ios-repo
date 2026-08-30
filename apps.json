@@ -152,7 +152,7 @@
       }
     },
     {
-      "name": "Sauna Scout",
+      "name": "SaunaScout",
       "bundleIdentifier": "com.maxreuben.SaunaScout",
       "developerName": "Max",
       "subtitle": "Discover & Bag Wild Saunas Across Scotland",
@@ -184,8 +184,8 @@
   ],
   "news": [
     {
-      "title": "Sauna Scout Released!",
-      "identifier": "sauna-scout-released",
+      "title": "SaunaScout Released!",
+      "identifier": "saunascout-released",
       "caption": "Discover and bag over 100 wild and coastal saunas across Scotland.",
       "date": "2026-08-30T00:00:00-00:00",
       "tintColor": "#E07326",
