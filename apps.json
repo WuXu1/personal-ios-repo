@@ -153,7 +153,7 @@
     },
     {
       "name": "Sauna Scout",
-      "bundleIdentifier": "maxreuben.SaunaScout",
+      "bundleIdentifier": "com.maxreuben.SaunaScout",
       "developerName": "Max",
       "subtitle": "Discover & Bag Wild Saunas Across Scotland",
       "version": "1.0",
@@ -190,7 +190,7 @@
       "date": "2026-08-30T00:00:00-00:00",
       "tintColor": "#E07326",
       "notify": true,
-      "appID": "maxreuben.SaunaScout"
+      "appID": "com.maxreuben.SaunaScout"
     },
     {
       "title": "Sales Assistant Released!",
