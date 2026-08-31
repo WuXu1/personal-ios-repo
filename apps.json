@@ -172,15 +172,23 @@
       "bundleIdentifier": "com.maxreuben.SaunaScout",
       "developerName": "Max",
       "subtitle": "Discover & Bag Wild Saunas Across Scotland",
-      "version": "1.0",
-      "versionDate": "2026-08-30T00:00:00-00:00",
-      "versionDescription": "Initial Release:\n• Interactive map of 100+ wild and coastal saunas across Scotland.\n• One-tap sauna bagging with timestamped visit history tracking.\n• Personal sauna passport with bag counter and progress ring.\n• Direct Apple Maps driving directions for every sauna location.\n• Live GPS location tracking with automatic map snap-back to Scotland.",
-      "downloadURL": "https://drive.google.com/uc?export=download&id=1VoyyxQlfbtZ0oNdv6Moixk1kG79-vAwE",
+      "version": "1.1",
+      "versionDate": "2026-08-31T00:00:00-00:00",
+      "versionDescription": "Theme & Appearance Settings:\n• New Settings View: Added a dedicated SettingsView accessible from the Profile screen.\n• Theme Support: Support for System, Light, and Dark appearance modes (AppTheme) saved persistently via @AppStorage.\n• Version Indicator: Added dynamic display of current app version in Settings.\n\nUI & Detail Sheet Improvements:\n• Refreshed App Icon: Updated asset catalog with high-resolution app icon assets for single-size iOS deployment.\n• Redesigned Detail Sheet: Redesigned header with enlarged icons, improved spacing, cleaner typography, and modern .thickMaterial background.\n• Streamlined Action Buttons: Styled primary and destructive action buttons with dedicated background containers.\n• Tailored Sheet Detent: Replaced fixed .medium detent with a custom 340pt height detent for a compact presentation across all device sizes.\n\nBug Fixes & Stability:\n• Sheet Presentation Race Condition: Refactored ExploreView to .sheet(item: $selectedSauna), guaranteeing selected sauna data resolves reliably on map annotation taps.\n• Profile Settings Navigation: Connected the static Settings row in ProfileView directly to the navigation hierarchy.",
+      "downloadURL": "https://drive.google.com/uc?export=download&id=1soZwoEw6LnDD30Wfmh73LL5guFRx1f9c",
       "localizedDescription": "Sauna Scout is the dedicated mobile guide for discovering, exploring, and tracking wild and coastal saunas across Scotland. From wood-fired beach barrels to secluded lochside cabins and highland retreats, Sauna Scout puts Scotland's thriving wild sauna community right at your fingertips.\n\nKey Features:\n• Wild Sauna Map: Explore over 100 authentic wood-fired saunas, seaside barrels, and mobile sauna tents across Scotland.\n• Sauna Bagging & Tracker: Check off every sauna you visit with one-tap logging, personal visit history, and date stamps.\n• Sauna Passport: Track your exploration progress with a visual ring tracker and total bagged counter.\n• Turn-by-Turn Navigation: One-tap integration to launch Apple Maps driving directions directly to any sauna.\n• Smart GPS & Auto Snap-Back: Locate nearby saunas in real time with an intelligent map boundary keeping Scotland in focus.\n• Live Search: Quickly filter and locate saunas by name across the Highlands, Islands, and Lowlands.",
       "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/saunascout.png",
       "tintColor": "#E07326",
       "size": 99353,
       "versions": [
+        {
+          "version": "1.1",
+          "date": "2026-08-31T00:00:00-00:00",
+          "localizedDescription": "Theme & Appearance Settings:\n• New Settings View: Added a dedicated SettingsView accessible from the Profile screen.\n• Theme Support: Support for System, Light, and Dark appearance modes (AppTheme) saved persistently via @AppStorage.\n• Version Indicator: Added dynamic display of current app version in Settings.\n\nUI & Detail Sheet Improvements:\n• Refreshed App Icon: Updated asset catalog with high-resolution app icon assets for single-size iOS deployment.\n• Redesigned Detail Sheet: Redesigned header with enlarged icons, improved spacing, cleaner typography, and modern .thickMaterial background.\n• Streamlined Action Buttons: Styled primary and destructive action buttons with dedicated background containers.\n• Tailored Sheet Detent: Replaced fixed .medium detent with a custom 340pt height detent for a compact presentation across all device sizes.\n\nBug Fixes & Stability:\n• Sheet Presentation Race Condition: Refactored ExploreView to .sheet(item: $selectedSauna), guaranteeing selected sauna data resolves reliably on map annotation taps.\n• Profile Settings Navigation: Connected the static Settings row in ProfileView directly to the navigation hierarchy.",
+          "downloadURL": "https://drive.google.com/uc?export=download&id=1soZwoEw6LnDD30Wfmh73LL5guFRx1f9c",
+          "size": 99353,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.0",
           "date": "2026-08-30T00:00:00-00:00",
@@ -199,6 +207,15 @@
     }
   ],
   "news": [
+    {
+      "title": "SaunaScout v1.1 Released!",
+      "identifier": "saunascout-1-1-released",
+      "caption": "Theme & appearance settings, redesigned detail sheet, and stability fixes.",
+      "date": "2026-08-31T00:00:00-00:00",
+      "tintColor": "#E07326",
+      "notify": true,
+      "appID": "com.maxreuben.SaunaScout"
+    },
     {
       "title": "SaunaScout Released!",
       "identifier": "saunascout-released",
