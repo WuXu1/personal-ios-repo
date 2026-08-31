@@ -198,6 +198,25 @@
           "minOSVersion": "17.0"
         }
       ],
+      "screenshots": {
+        "iphone": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/saunascout_1.png",
+            "width": 470,
+            "height": 1024
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/saunascout_2.png",
+            "width": 470,
+            "height": 1024
+          },
+          {
+            "imageURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/screenshots/saunascout_3.png",
+            "width": 470,
+            "height": 1024
+          }
+        ]
+      },
       "appPermissions": {
         "entitlements": [],
         "privacy": {
