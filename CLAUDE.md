@@ -75,7 +75,7 @@ When the user asks you to add a new version or edit an app, you **must adhere to
 ### App 1: Restring Helper
 - **Bundle ID:** `com.stringsports.restringhelper`
 - **Developer:** `Max`
-- **Current Version:** `3.5` (History: `3.5`, `3.4`, `3.3`, `3.2`, `3.1`, `3.0`, `2.1`, `2.0`, `1.0`)
+- **Current Version:** `3.6` (History: `3.6`, `3.5`, `3.4`, `3.3`, `3.2`, `3.1`, `3.0`, `2.1`, `2.0`, `1.0`)
 - **Subtitle:** `Dedicated Stringing Manager for String Sports Glasgow`
 - **Tint Color:** `#E5A817`
 - **Permissions:** `NSBluetoothAlwaysUsageDescription` (Zebra label printer Bluetooth)
