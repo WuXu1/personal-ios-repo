@@ -84,7 +84,7 @@ When the user asks you to add a new version or edit an app, you **must adhere to
 ### App 2: Sales Assistant
 - **Bundle ID:** `com.stringsports.salesassistant`
 - **Developer:** `Max`
-- **Current Version:** `2.0` (History: `2.0`, `1.0`)
+- **Current Version:** `3.0` (History: `3.0`, `2.0`, `1.0`)
 - **Subtitle:** `AI-Powered Equipment Recommender for String Sports`
 - **Tint Color:** `#007AFF`
 - **Permissions:** Standard / None required
