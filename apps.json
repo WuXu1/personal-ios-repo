@@ -13,15 +13,23 @@
       "bundleIdentifier": "com.stringsports.restringhelper",
       "developerName": "Max",
       "subtitle": "Dedicated Stringing Manager for String Sports Glasgow",
-      "version": "3.6",
-      "versionDate": "2026-09-01T00:00:00-00:00",
-      "versionDescription": "SMS & Notifications:\n• Vonage Cost Optimization: Shortened SMS templates, folded customer names to GSM-7 compatible characters, and added deduplication guards to reduce segment costs.\n• SMS History View: Added an SMS History screen accessible from Settings below Appearance.\n• Fixes & Reliability: Fixed customer ID mapping on SMS sending for accurate logging and resolved endpoint errors.\n\nAnalytics & Marketing:\n• New Customer Badge: Added a green badge to the Analytics Customers card indicating newly acquired customers.\n• Email Marketing Integration: Automatically subscribes new restring customers to the String Sports email marketing list.\n\nOrder & Customer Management:\n• Compact Stringer Selector: Redesigned the stringer attribution prompt into a compact 2-column name grid.\n• Stringer Visibility: Displays assigned stringer name in small grey text under the order status in customer history.\n• Free Restring Refinements: Streamlined dropdown choices to 3 options and hid the stringing fee note when Free Restring is active.\n• Order Deletion Safety: Added a confirmation alert before deleting an order from customer history.\n\nPrinter & Hardware:\n• Connection Alerts: Improved printer timeout error messaging and surfaced alerts clearly inside the new order screen.",
-      "downloadURL": "https://drive.google.com/uc?export=download&id=1CRZMRyHPRmfOMHBpCHO7iEgc5rpSr9KX",
+      "version": "3.7",
+      "versionDate": "2026-09-08T00:00:00-00:00",
+      "versionDescription": "Shopify Sync Reliability & Fulfillment:\n• Auto-Fulfillment & Idempotency: Made Shopify order sync reliable, idempotent, and automatically fulfilled upon sync.\n• Unlinked Customer Sync Fix: Resolved sync failures caused by unlinked or missing customer associations.\n• New-Racket Sync Flag: Handled skipping Shopify sync for new rackets cleanly via an internal flag instead of a visible order note.\n\nOverdue Order & SMS Automation:\n• Auto-Completion for Overdue Orders: Automatically completes orders that are 2+ days past their pickup date without sending SMS or assigning stringer credit.\n• Overdue SMS Thresholds: Updated the overdue threshold to 2 hours, automatically disabling SMS notifications by default when completing orders overdue by 2+ hours to avoid redundant messages.",
+      "downloadURL": "https://drive.google.com/uc?export=download&id=1RLiFW4OyOmHtMjMMWVV0U3hIUtcJQZ5y",
       "localizedDescription": "Restring Helper is the dedicated stringing management application designed for String Sports Glasgow. It streamlines in-store and online racket restringing workflows, customer communications, and label printing.\n\nKey Features:\n• Order Management: Track drop-offs, tensions, custom string selections, payment status, and pickup schedules.\n• Web Orders Integration: Directly track, categorize, and fulfill incoming Shopify restring orders with smart dispatch tabs.\n• Zebra Label Printing: Automatically generate and print detailed ZPL job labels directly to Zebra printers.\n• Customer SMS Notifications: Automated SMS alerts when rackets are ready for collection, with a 5-second undo safeguard.\n• Stringer Attribution & Analytics: Track team workload, attribution, and racket counts with a live stringer leaderboard.\n• Multi-Racket Orders: Quickly process multi-racket drop-offs with smart cloning and visual grouping hints.\n• iPadOS Multitasking: Optimized for iPad with full Split View and Slide Over support.",
       "iconURL": "https://raw.githubusercontent.com/WuXu1/personal-ios-repo/main/icons/restringhelper_v2.jpg",
       "tintColor": "#E5A817",
       "size": 10485760,
       "versions": [
+        {
+          "version": "3.7",
+          "date": "2026-09-08T00:00:00-00:00",
+          "localizedDescription": "Shopify Sync Reliability & Fulfillment:\n• Auto-Fulfillment & Idempotency: Made Shopify order sync reliable, idempotent, and automatically fulfilled upon sync.\n• Unlinked Customer Sync Fix: Resolved sync failures caused by unlinked or missing customer associations.\n• New-Racket Sync Flag: Handled skipping Shopify sync for new rackets cleanly via an internal flag instead of a visible order note.\n\nOverdue Order & SMS Automation:\n• Auto-Completion for Overdue Orders: Automatically completes orders that are 2+ days past their pickup date without sending SMS or assigning stringer credit.\n• Overdue SMS Thresholds: Updated the overdue threshold to 2 hours, automatically disabling SMS notifications by default when completing orders overdue by 2+ hours to avoid redundant messages.",
+          "downloadURL": "https://drive.google.com/uc?export=download&id=1RLiFW4OyOmHtMjMMWVV0U3hIUtcJQZ5y",
+          "size": 10485760,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "3.6",
           "date": "2026-09-01T00:00:00-00:00",
